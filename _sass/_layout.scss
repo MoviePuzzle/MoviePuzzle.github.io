@@ -1,0 +1,258 @@
+/******************************************************************************
+ * Content
+ ******************************************************************************/
+
+ body {
+   padding-bottom: 70px;
+   color: var(--global-text-color);
+   background-color: var(--global-bg-color);
+ }
+
+ body.fixed-top-nav {
+   // Add some padding for the nav-bar.
+   padding-top: 56px;
+ }
+
+ body.sticky-bottom-footer {
+   // Remove padding below footer.
+   padding-bottom: 0;
+ }
+
+.container {
+  max-width: $max-content-width;
+}
+
+// Profile
+.profile {
+  img {
+    width: 100%;
+  }
+}
+
+.page-title {
+  text-transform: uppercase;
+  word-spacing: .6rem;
+}
+
+.nav-title {
+  text-transform: uppercase;
+  color: var(--global-text-color);
+}
+
+// TODO: redefine content layout.
+
+.section_title {
+  font-style: bold;
+}
+
+// News
+
+.news {
+  margin-top: 2rem;
+  table {
+    color: var(--global-text-color);
+    padding-bottom: .3rem;
+    padding-top: 0;
+    td {
+      font-size: 1rem;
+    }
+    th {
+
+    }
+  }  
+}
+
+/******************************************************************************
+ * Publications
+ ******************************************************************************/
+
+// TODO: redefine publications layout.
+.publications {
+  .notes {
+    margin-bottom: .5rem;
+    code {
+      color: var(--global-text-color);
+    }
+  }
+  .award {
+    color: #990000;
+    font-weight: bold;
+  }
+
+  .conf {
+    color: var(--global-theme-color) !important;
+    border: 1px solid var(--global-theme-color);
+  }
+
+  .bibtex pre {
+    display: block;
+    background-color: $grey-color-light;
+  }
+}
+
+.modal-header h5,span{
+  color: #212529 !important;
+}
+
+.modal-body pre{
+  margin-bottom: 0;
+}
+
+/*****************************************************************************
+* Projects
+*****************************************************************************/
+
+// TODO: redefine projects layout.
+
+.services {
+  margin-top: 2rem;
+  ul {
+    li {
+      margin-bottom: .5rem;
+    }
+  }
+}
+
+
+.project {
+  font-family: Georgia, "New Century Schoolbook", Times, serif;
+  font-size: 1rem;
+
+  .container {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+  }
+
+  .title {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .content {
+    margin-top: 1.5rem;
+  }
+
+  a,a:not([href]) {
+    color: var(--global-theme-color);
+    text-decoration: none;
+    font-weight: bold;
+    &:hover {
+      color: var(--global-theme-color);
+      text-decoration: none;
+    }
+    &:hover:after {
+      width: 100%;
+    }
+  }
+
+  h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  h3 {
+    padding-top: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+
+  .project_info {
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+    text-align: center;
+    text-decoration: none;
+    h2 {
+      font-weight: normal;
+    }
+    span {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+    .active {
+      color: black;
+    }
+
+    .award {
+      color: #990000;
+    }
+  }
+
+  .section {
+    h2 {
+      margin-top: 0.5rem;
+    }
+    margin-top: 2rem;
+    display: block;
+
+  }
+
+  h2 {
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    display: block;
+  }
+
+  .hidden {
+    font-size: 0.875rem;
+    max-height: 0px;
+    overflow: hidden;
+    text-align: justify;
+    -webkit-transition: 0.15s ease;
+    -moz-transition: 0.15s ease;
+    -ms-transition: 0.15s ease;
+    -o-transition: 0.15s ease;
+    transition: all 0.15s ease;
+
+    p {
+      line-height: 1.4em;
+      margin: 10px;
+    }
+    pre {
+      font-size: 1em;
+      line-height: 1.4em;
+      padding: 10px;
+    }
+  }
+  .hidden.open {
+    max-height: 100em;
+    -webkit-transition: 0.15s ease;
+    -moz-transition: 0.15s ease;
+    -ms-transition: 0.15s ease;
+    -o-transition: 0.15s ease;
+    transition: all 0.15s ease;
+  }
+
+
+  .paper {
+    float: left;
+    padding-top: 10px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    border: none;
+    box-shadow: 10px 10px 5px #ccc;
+    -moz-box-shadow: 10px 10px 5px #ccc;
+    -webkit-box-shadow: 10px 10px 5px #ccc;
+    -khtml-box-shadow: 10px 10px 5px #ccc;
+  }
+
+  .paper_info {
+    padding-top: 1rem;
+  }
+
+  .figure {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    img {
+      display:block;
+      margin-left:auto;
+      margin-right:auto;
+      padding-bottom: 10px;
+    }
+  }
+  
+}
