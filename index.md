@@ -1,12 +1,13 @@
 ---
 layout: project
-project: PatchGenCN
+project: MoviePuzzle
 title: >
-    Patchwise Generative ConvNet: Training Energy-Based Models from a Single Natural Image for Internal Learning
-permalink: /PatchGenCN/
-thumbnail: PatchGenCN/images/paper_thumbnail.png
-paper: PatchGenCN/CVPR21_PatchGenCN.pdf
+    MoviePuzzle:Visual Narrative Reasoning through Multimodal Order Learning
+permalink: /
+thumbnail: images/paper_thumbnail.png
+paper: MoviePuzzle.pdf
 bibtex: >
+    # TODO replace with your own bib file
     @inproceedings{zheng2021patchgencn,
         title={Patchwise Generative ConvNet: Training Energy-Based Models from a Single Natural Image for Internal Learning},
         author={Zheng, Zilong and Xie, Jianwen and Li, Ping},
