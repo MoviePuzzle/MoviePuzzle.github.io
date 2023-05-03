@@ -20,9 +20,9 @@ bibtex: >
 <span><a href="http://www.stat.ucla.edu/~jxie/">Jianghui Wang</a> <sup>1</sup></span>  
 <span><a href="http://research.baidu.com/People/index-view?id=111">Yuxuan Wang</a> <sup>1 2</sup></span>
 <span><a href="http://research.baidu.com/People/index-view?id=111">Dongyan Zhao</a> <sup>2</sup></span>
+<span><a href="https://zilongzheng.github.io" class="active" >Zilong Zheng</a> <sup>1</sup></span>  
 </div>
 
-<span><a href="https://zilongzheng.github.io" class="active" >Zilong Zheng</a> <sup>1</sup></span>  
 
 <div class="project_info">
 <span><sup>1</sup> Beijing Institute for General Artificial Intelligence (BIGAI)</span> <br>
