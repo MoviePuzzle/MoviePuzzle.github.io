@@ -1,0 +1,31 @@
+TPAMI:
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34
+
+ACL'21:
+  url: https://2021.aclweb.org/
+
+CVPR'21:
+  url: http://cvpr2021.thecvf.com/
+
+AAAI'22:
+  url: https://aaai.org/Conferences/AAAI-22/
+AAAI'21:
+  url: https://aaai.org/Conferences/AAAI-21/
+
+AAAI'20:
+  url: https://aaai.org/Conferences/AAAI-20/
+
+AAAI'19:
+  url: https://aaai.org/Conferences/AAAI-19/
+
+
+CVPR'19:
+  url: https://cvpr2019.thecvf.com/
+
+CVPR'18:
+  url: https://cvpr2018.thecvf.com/
+
+
+ICLR'22:
+  url: https://iclr.cc/
+

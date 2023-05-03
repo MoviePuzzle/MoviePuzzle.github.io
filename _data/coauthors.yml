@@ -1,0 +1,121 @@
+"Barnes":
+  - firstname: "Nick" 
+    url: http://users.cecs.anu.edu.au/~nmb/
+
+"Edmonds":
+  - firstname: Mark
+    url: https://mjedmonds.com/
+
+"Fan":
+  - firstname: "Lifeng"
+    url: https://lifengfan.github.io/
+
+"Fang":
+  - firstname: "Xiaolin"
+    url: https://fang-xiaolin.github.io/
+
+"Gao":
+  - firstname: "Tao"
+    url: http://www.stat.ucla.edu/~taogao/
+
+  - firstname: "Ruiqi"
+    url: http://www.stat.ucla.edu/~ruiqigao/
+
+  - firstname: "Xiaofeng"
+    url: https://xfgao.github.io/
+
+"Han":
+  - firstname: "Wenjuan" 
+    url: http://hanwenjuan.com/
+
+"Huang":
+  - firstname: Siyuan
+    url: https://siyuanhuang.com/
+
+"Li":
+  - firstname: "Ping"
+    url: http://research.baidu.com/People/index-view?id=111
+  
+  - firstname: "Yanzeng"
+    url: https://liyanzeng.ac.cn/
+
+  - firstname: "Qing"
+    url: http://liqing-ustc.github.io/
+
+"Liang":
+  - firstname: "Yitao"
+    url: https://web.cs.ucla.edu/~yliang/
+
+"Liu":
+  - firstname: "Hangxin"
+    url: https://liuhx111.github.io/
+
+"Lu":
+  - firstname: "Hongjing"
+    url: https://www.psych.ucla.edu/faculty-page/hongjing/
+
+"Ma":
+  - firstname: "Xiaojian"
+    url: https://web.cs.ucla.edu/~xm/
+
+"Qi":
+  - firstname: "Siyuan"
+    url: https://web.cs.ucla.edu/~syqi/
+
+"Qiu":
+  - firstname: "Shuwen"
+    url: https://janetalready.github.io/
+
+"Rossano":
+  - firstname: "Federico"
+    url: https://scholar.google.com/citations?user=tkbxHjsAAAAJ&hl=en
+
+"Tu":
+  - firstname: "Kewei"
+    url: https://faculty.sist.shanghaitech.edu.cn/faculty/tukw/
+
+"Tuytelaars":
+  - firstname: "Tinne" 
+    url: https://homes.esat.kuleuven.be/~tuytelaa/
+
+"Wan":
+  - firstname: Bo
+    url: http://plus.sist.shanghaitech.edu.cn/author/bo-wan/
+
+"Wang":
+  - firstname: "Wenguan"
+    url: https://sites.google.com/view/wenguanwang/
+
+"Wu":
+  - firstname: "Ying Nian"
+    url: http://www.stat.ucla.edu/~ywu/research.html
+
+"Xie":
+  - firstname: "Jianwen"
+    url: http://www.stat.ucla.edu/~jxie/
+
+"Yuan":
+  - firstname: Luyao
+    url: https://yuanluya.github.io/
+
+  - firstname: "Tao"
+    url: https://ytyt.yt/
+
+"Xu":
+  - firstname: "Yifei"
+    url: https://yfxu.me/
+
+"Zhang":
+  - firstname: "Jing"
+    url: https://jingzhang617.github.io/
+
+"Zou":
+  - firstname: Lei
+    url: https://www.icst.pku.edu.cn/leizou/en/index.htm
+
+"Zhu":
+  - firstname: "Song-Chun"
+    url: http://www.stat.ucla.edu/~sczhu/
+  
+  - firstname: "Yixin"
+    url: https://yzhu.io/
