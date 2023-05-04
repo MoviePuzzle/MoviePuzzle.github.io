@@ -19,6 +19,8 @@ bibtex: >
 <script src="js/annimations.js?ver=20200601"></script>
 <script src="js/responsive.js?ver=20200601"></script>
 <script src="js/game.js?ver=20230403"></script>
+<link rel="stylesheet" href="css/index.css?ver=20200601">
+<link rel="stylesheet" href="css/game.css?ver=20230403">
 <link href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
 <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
@@ -40,6 +42,7 @@ ICCV 2023 Under Review
 </div>
 
 <!-- game -->
+## Game
 <div class="game">
     <div class="body" class="img">
     <h2>Sort Movie Frames</h2>
@@ -50,7 +53,6 @@ ICCV 2023 Under Review
             <b>Output of ID's of images : </b>
             <input id="outputvalues" type="text" value="" />
         </div>
-    
         <div id="actionDiv">
             <button id="nextBtn" onclick="JumpNext()" disabled>Next</button>
             <button id="submitBtn" onclick="Submit()" disabled>Submit</button>
@@ -91,6 +93,7 @@ All the datasets and baseline codes will be publicly accessible.
 </div>
 </div>
 
+<h3>Download</h3>
 
 <br>
 
