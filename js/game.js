@@ -49,7 +49,7 @@ function init() {
     userId = getUUId(8);
     console.log(userId);
 
-    fetch('./src/game/game_data.json')
+    fetch('./game/game_data.json.example')
     .then((response) => response.json())
     .then((json) => {
         console.log(json);
