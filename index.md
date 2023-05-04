@@ -16,6 +16,13 @@ bibtex: >
     }
 ---
 
+<script src="js/annimations.js?ver=20200601"></script>
+<script src="js/responsive.js?ver=20200601"></script>
+<script src="js/game.js?ver=20230403"></script>
+<link href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+
 <div class="project_info">
 <span><a href="http://www.stat.ucla.edu/~jxie/">Jianghui Wang</a> <sup>1</sup></span>  
 <span><a href="http://research.baidu.com/People/index-view?id=111">Yuxuan Wang</a> <sup>1 2</sup></span>
@@ -32,8 +39,25 @@ bibtex: >
 ICCV 2023 Under Review
 </div>
 
-<!-- TODO add game here  -->
-
+<!-- game -->
+<div class="game">
+    <div class="body" class="img">
+    <h2>Sort Movie Frames</h2>
+    <div class="height"></div><br>
+    <div class="content">
+        <div id="imageListId"></div>
+        <div id="outputDiv">
+            <b>Output of ID's of images : </b>
+            <input id="outputvalues" type="text" value="" />
+        </div>
+    
+        <div id="actionDiv">
+            <button id="nextBtn" onclick="JumpNext()" disabled>Next</button>
+            <button id="submitBtn" onclick="Submit()" disabled>Submit</button>
+        </div>    
+    </div>
+    </div>
+</div>
 
 ## Abstract
 
