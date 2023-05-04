@@ -42,7 +42,6 @@ ICCV 2023 Under Review
 </div>
 
 <!-- game -->
-## Game
 <div class="game">
     <div class="body" class="img">
     <h2>Sort Movie Frames</h2>
@@ -61,7 +60,7 @@ ICCV 2023 Under Review
     </div>
 </div>
 
-## Abstract
+<h2>Abstract</h2>
 
 <p class="text-justify">
 We introduce MoviePuzzle, a novel challenge that targets visual narrative reasoning and holistic movie understanding. Despite the notable progress that has been witnessed in the realm of video understanding, most prior works fail to present tasks and models to address *holistic video understanding* and the innate *visual narrative structures* existing in long-form videos. To tackle this quandary, we put forth MoviePuzzle task that amplifies the temporal feature learning and structure learning of video models by reshuffling the shot, frame, and clip layers of movie segments in the presence of video-dialogue information.
@@ -93,7 +92,6 @@ All the datasets and baseline codes will be publicly accessible.
 </div>
 </div>
 
-<h3>Download</h3>
+<h2>Download</h2>
 
 <br>
-
