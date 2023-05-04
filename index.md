@@ -41,27 +41,8 @@ bibtex: >
 ICCV 2023 Under Review
 </div>
 
-<!-- game -->
-<div class="game">
-    <div class="body" class="img">
-    <h2>Sort Movie Frames</h2>
-    <div class="height"></div><br>
-    <div class="content">
-        <div id="imageListId"></div>
-        <div id="outputDiv">
-            <b>Output of ID's of images : </b>
-            <input id="outputvalues" type="text" value="" />
-        </div>
-        <div id="actionDiv">
-            <button id="nextBtn" onclick="JumpNext()" disabled>Next</button>
-            <button id="submitBtn" onclick="Submit()" disabled>Submit</button>
-        </div>    
-    </div>
-    </div>
-</div>
 
 <h2>Abstract</h2>
-
 <p class="text-justify">
 We introduce MoviePuzzle, a novel challenge that targets visual narrative reasoning and holistic movie understanding. Despite the notable progress that has been witnessed in the realm of video understanding, most prior works fail to present tasks and models to address *holistic video understanding* and the innate *visual narrative structures* existing in long-form videos. To tackle this quandary, we put forth MoviePuzzle task that amplifies the temporal feature learning and structure learning of video models by reshuffling the shot, frame, and clip layers of movie segments in the presence of video-dialogue information.
 We start by establishing a carefully refined dataset based on MovieNet by dissecting movies into hierarchical layers and randomly permuting the orders. 
@@ -93,5 +74,24 @@ All the datasets and baseline codes will be publicly accessible.
 </div>
 
 <h2>Download</h2>
+
+<!-- game -->
+<div class="game">
+    <div class="body" class="img">
+    <h2>Sort Movie Frames</h2>
+    <div class="height"></div><br>
+    <div class="content">
+        <div id="imageListId"></div>
+        <div id="outputDiv">
+            <b>Output of ID's of images : </b>
+            <input id="outputvalues" type="text" value="" />
+        </div>
+        <div id="actionDiv">
+            <button id="nextBtn" onclick="JumpNext()" disabled>Next</button>
+            <button id="submitBtn" onclick="Submit()" disabled>Submit</button>
+        </div>    
+    </div>
+    </div>
+</div>
 
 <br>
