@@ -8,11 +8,11 @@ thumbnail: images/paper_thumbnail.png
 paper: MoviePuzzle.pdf
 bibtex: >
     # TODO replace with your own bib file
-    @inproceedings{zheng2021patchgencn,
-        title={Patchwise Generative ConvNet: Training Energy-Based Models from a Single Natural Image for Internal Learning},
-        author={Zheng, Zilong and Xie, Jianwen and Li, Ping},
-        booktitle={Proceedings of the IEEE conference on computer vision and pattern recognition (CVPR)},
-        year={2021}
+    @inproceedings{wang2023moviepuzzle,
+        title={MoviePuzzle: Visual Narrative Reasoning through Multimodal Order Learning},
+        author={Jianghui Wang, Zilong and Xie, Jianwen and Li, Ping},
+        booktitle={},
+        year={2023}
     }
 ---
 

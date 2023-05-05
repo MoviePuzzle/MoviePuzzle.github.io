@@ -1,0 +1,61 @@
+/* text align for the body */
+.game .body {
+    text-align: center;
+}
+
+/* image dimension */
+.game .img {
+    height: 120px;
+    width: 210px;
+}
+
+.game .content {
+    text-align: center;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* imagelistId styling */
+#imageListId {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#imageListId div {
+    margin: 0 4px 4px 4px;
+    padding: 0.4em;
+    display: inline-block;
+}
+
+/* Output order styling */
+#outputvalues {
+    margin: 10px 2px 2px 2px;
+    padding: 0.4em;
+    padding-left: 1.5em;
+    width: 250px;
+    border: 2px solid dark-green;
+    background: lightgray;
+}
+
+.game .listitemClass {
+    border: 1px solid #006400;
+    width: 230px;
+}
+
+.game .listitemClass p {
+    text-align: justify;
+}
+
+.game .height {
+    height: 10px;
+}
+
+#actionDiv {
+    margin-top: 10px;
+}
+
+#actionDiv button {
+    margin-left: 20px;
+}
