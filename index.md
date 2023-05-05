@@ -2,7 +2,7 @@
 layout: project
 project: MoviePuzzle
 title: >
-    MoviePuzzle: Visual Narrative Reasoning through Multimodal Order Learning
+    <i class="fas fa-puzzle-piece"></i>MoviePuzzle: Visual Narrative Reasoning through Multimodal Order Learning
 permalink: /
 thumbnail: images/paper_thumbnail.png
 paper: MoviePuzzle.pdf
