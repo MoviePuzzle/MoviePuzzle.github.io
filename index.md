@@ -4,15 +4,16 @@ project: MoviePuzzle
 title: >
     <i class="fas fa-puzzle-piece"></i>MoviePuzzle: Visual Narrative Reasoning through Multimodal Order Learning
 permalink: /
-thumbnail: images/paper_thumbnail.png
+thumbnail: images/paper_thumbnail.jpg
 paper: MoviePuzzle.pdf
 bibtex: >
-    # TODO replace with your own bib file
-    @inproceedings{wang2023moviepuzzle,
-        title={MoviePuzzle: Visual Narrative Reasoning through Multimodal Order Learning},
-        author={Jianghui Wang, Zilong and Xie, Jianwen and Li, Ping},
-        booktitle={},
-        year={2023}
+    @misc{wang2023moviepuzzle,
+        title={MoviePuzzle: Visual Narrative Reasoning through Multimodal Order Learning}, 
+        author={Jianghui Wang and Yuxuan Wang and Dongyan Zhao and Zilong Zheng},
+        year={2023},
+        eprint={2306.02252},
+        archivePrefix={arXiv},
+        primaryClass={cs.CV}
     }
 ---
 
@@ -26,10 +27,10 @@ bibtex: >
 <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
 
 <div class="project_info">
-<span><a href="http://www.stat.ucla.edu/~jxie/">Jianghui Wang</a> <sup>1</sup></span>  
-<span><a href="http://research.baidu.com/People/index-view?id=111">Yuxuan Wang</a> <sup>1 2</sup></span>
-<span><a href="http://research.baidu.com/People/index-view?id=111">Dongyan Zhao</a> <sup>2</sup></span>
-<span><a href="https://zilongzheng.github.io" class="active" >Zilong Zheng</a> <sup>1</sup></span>  
+<span><a href="http://jianghui-wang.github.io">Jianghui Wang</a> <sup>1</sup></span>  
+<span><a href="http://patrick-tssn.github.io">Yuxuan Wang</a> <sup>1 2</sup></span>
+<span><a href="https://www.wict.pku.edu.cn/zhaodongyan/en/">Dongyan Zhao</a> <sup>2</sup></span>
+<span><a href="https://zilongzheng.github.io">Zilong Zheng</a> <sup>1</sup></span>  
 </div>
 
 
@@ -38,7 +39,6 @@ bibtex: >
 <span><sup>2</sup> Wangxuan Institute of Computer Technology, Peking University</span>
 </div>
 <div class="project_info">
-ICCV 2023 Under Review
 </div>
 
 
@@ -57,25 +57,35 @@ All the datasets and baseline codes will be publicly accessible.
     <div class="row">
         <div class="col-lg-3">
         <a href="{{ page.paper | prepend: '/projects/' | relative_url }}">
-        <img class="paper" alt="paper thumbnail" src="/images/paper_thumbnail.png" width="170px">
+        <img class="paper" alt="paper thumbnail" src="/images/paper_thumbnail.jpg" width="170px">
         </a>
         </div>
 <div class="col-lg-9">
 <h2>Paper</h2>
-<a href="https://openaccess.thecvf.com/content/CVPR2021/html/Zheng_Patchwise_Generative_ConvNet_Training_Energy-Based_Models_From_a_Single_Natural_CVPR_2021_paper.html">CVPR</a> | <a href="https://github.com/zilongzheng/PatchGenCN">Code</a> | <a role="button" data-toggle="modal" data-target="#bibtex-modal">Bibtex</a>.
+<a href="https://arxiv.org/abs/2306.02252">ArXiv</a> | <a href="https://github.com/MoviePuzzle">Code</a> | <a role="button" data-toggle="modal" data-target="#bibtex-modal">Bibtex</a>.
     
+<!-- 
 <h3>Citation</h3>
-
-<p class="text-justify">Jianghui Wang, Yuxuan Wang, Dongyan Zhao, Zilong Zheng. "MoviePuzzle: Visual Narrative Reasoning through Multimodal Order Learning"</p>
-
-<a role="button" data-toggle="modal" data-target="#bibtex-modal">BibTex</a>
+<pre>
+@misc{wang2023moviepuzzle,
+    title={MoviePuzzle: Visual Narrative Reasoning through Multimodal Order Learning}, 
+    author={Jianghui Wang and Yuxuan Wang and Dongyan Zhao and Zilong Zheng},
+    year={2023},
+    eprint={2306.02252},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
+}
+</pre>
+-->
 </div>
 </div>
 </div>
 
 <h2>Download</h2>
+You can download our released datasets <a href="https://bigai-research.s3.us-west-1.amazonaws.com/MoviePuzzle-20230403.zip" target="_blank">here</a>.
 
 <!-- game -->
+<!-- 
 <div class="game">
     <div class="body" class="img">
     <h2>Sort Movie Frames</h2>
@@ -93,3 +103,4 @@ All the datasets and baseline codes will be publicly accessible.
     </div>
     </div>
 </div>
+-->
