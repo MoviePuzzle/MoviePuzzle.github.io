@@ -15,6 +15,7 @@ bibtex: >
         archivePrefix={arXiv},
         primaryClass={cs.CV}
     }
+favicon: images/logo_square.png
 ---
 
 <script src="js/annimations.js?ver=20200601"></script>
